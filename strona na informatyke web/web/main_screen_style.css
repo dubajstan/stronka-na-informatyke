@@ -1,0 +1,73 @@
+body,html{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    height: 100vh;
+}
+
+.container-1 {
+    margin: 5px;
+    background-image: url('img/color_picker.png');
+    opacity: 0.15;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    flex-direction: row;
+    flex-grow: 1;
+    display: block;
+    transition: .8s ease;
+}
+
+.container-1:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    opacity: 0.8;
+}
+
+.container-2 {
+    margin: 5px;
+    background-image: url('img/kosci_do_gry.jpg');
+    opacity: 0.15;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    flex-direction: row;
+    flex-grow: 1;
+    display: block;
+    transition: .8s ease;
+}
+
+.container-2:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    opacity: 0.8;
+}
+
+.container-3 {
+    margin: 5px;
+    background-image: url('img/snake.png');
+    opacity: 0.15;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    flex-direction: row;
+    flex-grow: 1;
+    display: block;
+    transition: .8s ease;
+}
+
+.container-3:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    opacity: 0.8;
+}

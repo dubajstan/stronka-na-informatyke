@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('sources/img/snake.jpeg');
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 12px solid black;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('sources/fonts/Monoton-Regular.ttf')
+}
+
+#score {
+    font-size: 60px;
+    font-family: myFirstFont;
+    color: white;
+}
+
+#score-table {
+    font-size: 60px;
+    font-family: myFirstFont;
+    color: white;
+    display:flex;
+    flex-direction:row;
+}
